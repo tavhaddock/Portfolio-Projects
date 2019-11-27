@@ -1,0 +1,129 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: 'Montserrat', 'Avenir';
+}
+
+nav {
+    width: 100vw;
+    height: 44px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        width: 25%;
+        height: 100%;
+        text-decoration: none;
+        color: white;
+        font-family: $fontFamily;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a:hover {
+      background-color: #333;
+    }
+} // end nav
+
+.mainTitle {
+  color: #fff;
+}
+
+.pageName {
+  color: #fff;
+}
+
+main {
+  max-width: 75rem;
+  margin: 0 auto;
+  background-color: #666;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  background-color: purple;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20%;
+  transition: background 0.4s;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.1;
+  color: #fff;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+#stripe {
+  background-color: #fff;
+  height: 30px;
+  text-align: center;
+  color: #000;
+}
+
+.selected {
+  color: #fff;
+  background-color: steelblue;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all .25s;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  outline: none;
+}
+
+button:hover {
+  color: #fff;
+  background-color: steelblue;
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+        font-family: $fontFamily;
+        color: #fff;
+    }
+} // end footer
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } // end clearfix
