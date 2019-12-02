@@ -70,7 +70,7 @@ for (var i = 0; i < squares.length; i++){
       changeColors(clickedColor);
       h1.style.backgroundColor = clickedColor;
     } else {
-      this.style.backgroundColor = "#232323";
+      this.style.backgroundColor = "#000";
       messageDisplay.textContent = "Try Again"
     }
   });
