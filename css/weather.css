@@ -42,9 +42,14 @@ body {
  }
 
  #searchContainer button {
-   background-color: rgb(112, 167, 255);
+   background-color: #70a7ff;
+   color: #fff;
    width: 75px;
-   height: 35px;
+   height: 24px;
+ }
+
+ #searchContainer button:hover {
+   background-color: #4771b5;
  }
 
  .searchControl {
